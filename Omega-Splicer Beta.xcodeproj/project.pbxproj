@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC904A801D29D2D2009A5CBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC904A7F1D29D2D2009A5CBB /* AppDelegate.m */; };
+		FC904A831D29D2D2009A5CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC904A821D29D2D2009A5CBB /* main.m */; };
+		FC904A861D29D2D2009A5CBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC904A851D29D2D2009A5CBB /* ViewController.m */; };
+		FC904A881D29D2D2009A5CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC904A871D29D2D2009A5CBB /* Assets.xcassets */; };
+		FC904A8B1D29D2D2009A5CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC904A891D29D2D2009A5CBB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC904A7B1D29D2D2009A5CBB /* Omega-Splicer Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omega-Splicer Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC904A7E1D29D2D2009A5CBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC904A7F1D29D2D2009A5CBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC904A821D29D2D2009A5CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC904A841D29D2D2009A5CBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC904A851D29D2D2009A5CBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC904A871D29D2D2009A5CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC904A8A1D29D2D2009A5CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC904A8C1D29D2D2009A5CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC904A781D29D2D2009A5CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC904A721D29D2D2009A5CBB = {
+			isa = PBXGroup;
+			children = (
+				FC904A7D1D29D2D2009A5CBB /* Omega-Splicer Beta */,
+				FC904A7C1D29D2D2009A5CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC904A7C1D29D2D2009A5CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC904A7B1D29D2D2009A5CBB /* Omega-Splicer Beta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC904A7D1D29D2D2009A5CBB /* Omega-Splicer Beta */ = {
+			isa = PBXGroup;
+			children = (
+				FC904A7E1D29D2D2009A5CBB /* AppDelegate.h */,
+				FC904A7F1D29D2D2009A5CBB /* AppDelegate.m */,
+				FC904A841D29D2D2009A5CBB /* ViewController.h */,
+				FC904A851D29D2D2009A5CBB /* ViewController.m */,
+				FC904A871D29D2D2009A5CBB /* Assets.xcassets */,
+				FC904A891D29D2D2009A5CBB /* Main.storyboard */,
+				FC904A8C1D29D2D2009A5CBB /* Info.plist */,
+				FC904A811D29D2D2009A5CBB /* Supporting Files */,
+			);
+			path = "Omega-Splicer Beta";
+			sourceTree = "<group>";
+		};
+		FC904A811D29D2D2009A5CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC904A821D29D2D2009A5CBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC904A7A1D29D2D2009A5CBB /* Omega-Splicer Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC904A8F1D29D2D2009A5CBB /* Build configuration list for PBXNativeTarget "Omega-Splicer Beta" */;
+			buildPhases = (
+				FC904A771D29D2D2009A5CBB /* Sources */,
+				FC904A781D29D2D2009A5CBB /* Frameworks */,
+				FC904A791D29D2D2009A5CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Omega-Splicer Beta";
+			productName = "Omega-Splicer Beta";
+			productReference = FC904A7B1D29D2D2009A5CBB /* Omega-Splicer Beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC904A731D29D2D2009A5CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Charles Fournier";
+				TargetAttributes = {
+					FC904A7A1D29D2D2009A5CBB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FC904A761D29D2D2009A5CBB /* Build configuration list for PBXProject "Omega-Splicer Beta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC904A721D29D2D2009A5CBB;
+			productRefGroup = FC904A7C1D29D2D2009A5CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC904A7A1D29D2D2009A5CBB /* Omega-Splicer Beta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC904A791D29D2D2009A5CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC904A881D29D2D2009A5CBB /* Assets.xcassets in Resources */,
+				FC904A8B1D29D2D2009A5CBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC904A771D29D2D2009A5CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC904A861D29D2D2009A5CBB /* ViewController.m in Sources */,
+				FC904A831D29D2D2009A5CBB /* main.m in Sources */,
+				FC904A801D29D2D2009A5CBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC904A891D29D2D2009A5CBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC904A8A1D29D2D2009A5CBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC904A8D1D29D2D2009A5CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC904A8E1D29D2D2009A5CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC904A901D29D2D2009A5CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Omega-Splicer Beta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesadrienfournier.Omega-Splicer-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC904A911D29D2D2009A5CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Omega-Splicer Beta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesadrienfournier.Omega-Splicer-Beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC904A761D29D2D2009A5CBB /* Build configuration list for PBXProject "Omega-Splicer Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC904A8D1D29D2D2009A5CBB /* Debug */,
+				FC904A8E1D29D2D2009A5CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC904A8F1D29D2D2009A5CBB /* Build configuration list for PBXNativeTarget "Omega-Splicer Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC904A901D29D2D2009A5CBB /* Debug */,
+				FC904A911D29D2D2009A5CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC904A731D29D2D2009A5CBB /* Project object */;
+}
