@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC904A7B1D29D2D2009A5CBB /* Omega-Splicer Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omega-Splicer Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC904A7B1D29D2D2009A5CBB /* BLE-Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC904A7E1D29D2D2009A5CBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC904A7F1D29D2D2009A5CBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FC904A821D29D2D2009A5CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FC904A7C1D29D2D2009A5CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC904A7B1D29D2D2009A5CBB /* Omega-Splicer Beta.app */,
+				FC904A7B1D29D2D2009A5CBB /* BLE-Tester.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC904A7A1D29D2D2009A5CBB /* Omega-Splicer Beta */ = {
+		FC904A7A1D29D2D2009A5CBB /* BLE-Tester */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC904A8F1D29D2D2009A5CBB /* Build configuration list for PBXNativeTarget "Omega-Splicer Beta" */;
+			buildConfigurationList = FC904A8F1D29D2D2009A5CBB /* Build configuration list for PBXNativeTarget "BLE-Tester" */;
 			buildPhases = (
 				FC904A771D29D2D2009A5CBB /* Sources */,
 				FC904A781D29D2D2009A5CBB /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Omega-Splicer Beta";
+			name = "BLE-Tester";
 			productName = "Omega-Splicer Beta";
-			productReference = FC904A7B1D29D2D2009A5CBB /* Omega-Splicer Beta.app */;
+			productReference = FC904A7B1D29D2D2009A5CBB /* BLE-Tester.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC904A761D29D2D2009A5CBB /* Build configuration list for PBXProject "Omega-Splicer Beta" */;
+			buildConfigurationList = FC904A761D29D2D2009A5CBB /* Build configuration list for PBXProject "BLE-Tester" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC904A7A1D29D2D2009A5CBB /* Omega-Splicer Beta */,
+				FC904A7A1D29D2D2009A5CBB /* BLE-Tester */,
 			);
 		};
 /* End PBXProject section */
@@ -253,8 +253,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Omega-Splicer Beta/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesadrienfournier.Omega-Splicer-Beta";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesadrienfournier.BLE-Tester";
+				PRODUCT_NAME = "BLE-Tester";
 			};
 			name = Debug;
 		};
@@ -265,15 +265,15 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Omega-Splicer Beta/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesadrienfournier.Omega-Splicer-Beta";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charlesadrienfournier.BLE-Tester";
+				PRODUCT_NAME = "BLE-Tester";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC904A761D29D2D2009A5CBB /* Build configuration list for PBXProject "Omega-Splicer Beta" */ = {
+		FC904A761D29D2D2009A5CBB /* Build configuration list for PBXProject "BLE-Tester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC904A8D1D29D2D2009A5CBB /* Debug */,
@@ -282,13 +282,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC904A8F1D29D2D2009A5CBB /* Build configuration list for PBXNativeTarget "Omega-Splicer Beta" */ = {
+		FC904A8F1D29D2D2009A5CBB /* Build configuration list for PBXNativeTarget "BLE-Tester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC904A901D29D2D2009A5CBB /* Debug */,
 				FC904A911D29D2D2009A5CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

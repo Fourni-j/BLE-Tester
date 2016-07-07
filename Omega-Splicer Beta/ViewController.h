@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
 @interface ViewController : NSViewController
 
